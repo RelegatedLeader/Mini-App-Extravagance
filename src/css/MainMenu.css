@@ -1,0 +1,26 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+#whole_thing {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.option {
+  color: white; /* Changed text color to white for better contrast */
+  background-color: #e7c168;
+  padding: 8px 12px; /* Adjusted padding for a more compact size */
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 4px; /* Added border-radius for rounded corners */
+  cursor: pointer;
+  font-size: 14px; /* Adjusted font size */
+  margin-right: 8px; /* Added margin for spacing between buttons */
+}
+
+.option:hover {
+  background-color: gray; /* Darker background color on hover */
+}

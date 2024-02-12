@@ -1,0 +1,27 @@
+#your_input {
+  width: 80%;
+  margin-top: 10px;
+}
+#save_button {
+  width: 20%;
+
+  background-color: green;
+  font-weight: 700;
+}
+#save_button:hover {
+  background-color: gold;
+  font-weight: 700;
+  color: black;
+}
+
+.entry_option {
+  width: 20%;
+
+  background-color: gold;
+  font-weight: 700;
+}
+.entry_option:hover {
+  background-color: gold;
+  font-weight: 700;
+  color: black;
+}

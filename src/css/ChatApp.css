@@ -1,0 +1,72 @@
+.ChatApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.message-container {
+  width: 80%;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.message.me {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end;
+}
+
+.message.friend {
+  background-color: #f0f0f0;
+  color: #333;
+  align-self: flex-start;
+}
+
+.input-container {
+  width: 80%;
+  display: flex;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
+
+#send_button {
+  background-color: green;
+  width: 500px;
+  height: 50px;
+}
+
+#chat-app-logo {
+  height: 300px;
+  width: 300px;
+}

@@ -1,0 +1,9 @@
+.list_option {
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.list_option:hover {
+  background-color: gold;
+  color: black;
+}

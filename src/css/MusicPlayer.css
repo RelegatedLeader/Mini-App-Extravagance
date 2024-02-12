@@ -1,0 +1,30 @@
+.music-player-container {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#song_image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+#player_buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.player_button {
+  height: 60px;
+  width: 60px;
+}
+.player_img {
+  height: 50px;
+  width: 50px;
+}
+#player {
+  /* Define your player styles here */
+}
