@@ -28,6 +28,9 @@ const MainMenu = () => {
       <Link to='/chat_app'>
         <button className='option'> ChatApp</button>
       </Link>
+      <Link to='learn_the_brain'>
+        <button className='option'>Learn the Brain</button>
+      </Link>
     </div>
   );
 };

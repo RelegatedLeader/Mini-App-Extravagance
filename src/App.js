@@ -11,6 +11,10 @@ import NoteTaker from './components/SubComponents/NoteTaker';
 import ViewEntry from './components/SubComponents/ViewEntry';
 import CreateEntry from './components/SubComponents/CreateEntry';
 import ChatApp from './components/ChatApp';
+import Learn_the_brain from './components/Learn_the_brain';
+import Beginner_lesson from './components/Learn_the_brain/Beginner_lesson';
+import Intermediate_lesson from './components/Learn_the_brain/Intermediate_lesson';
+import Experienced_lesson from './components/Learn_the_brain/Experienced_lesson';
 
 const Home = () => <h2>Home Page</h2>;
 
@@ -19,6 +23,19 @@ function App() {
     <Router>
       <div>
         <Routes>
+          <Route
+            path='brain_experienced_lesson'
+            element={<Experienced_lesson />}
+          ></Route>
+          <Route
+            path='brain_intermediate_lesson'
+            element={<Intermediate_lesson />}
+          ></Route>
+          <Route
+            path='brain_beginner_lesson'
+            element={<Beginner_lesson />}
+          ></Route>
+          <Route path='learn_the_brain' element={<Learn_the_brain />}></Route>
           <Route path='chat_app' element={<ChatApp />}></Route>
           <Route path='create_entry' element={<CreateEntry />}></Route>
           <Route path='view_entry' element={<ViewEntry />}></Route>

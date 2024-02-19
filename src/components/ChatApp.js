@@ -6,6 +6,7 @@ import '../css/ChatApp.css';
 function ChatApp() {
   const [messages, setMessages] = useState([]);
   const [inputMessage, setInputMessage] = useState('');
+  const [your_messages, setYour_messages] = useState([]);
 
   const predefinedResponses = [
     'Hello, how can I assist you today? Please feel free to ask me anything.',
